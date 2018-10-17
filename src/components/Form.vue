@@ -21,7 +21,7 @@ export default {
       if(this.text === ""){
         return
       }
-      const a = this.newTask
+
       this.$store.commit("addTask",this.text)
       this.text=""
     }
